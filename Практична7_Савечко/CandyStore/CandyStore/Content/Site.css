@@ -1,0 +1,162 @@
+﻿body {
+font-family: Arial, sans-serif;
+background-color: #fff8f0;
+padding: 30px;
+color: #333;
+}
+
+h3 {
+color: #b65f2f;
+text-align: center;
+margin-bottom: 30px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+padding: 12px 15px;
+border: 1px solid #e0cfc2;
+text-align: left;
+}
+
+table tr:nth-child(even) {
+background-color: #fef1e7;
+}
+
+
+a.buy-button {
+display: inline-block;
+padding: 6px 12px;
+background-color: #ff8c42;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+a.buy-button:hover {
+background-color: #e57c2b;
+}
+.btn {
+display: inline-block;
+padding: 8px 16px;
+font-size: 14px;
+font-weight: 600;
+text-align: center;
+text-decoration: none;
+border-radius: 8px;
+transition: background-color 0.3s ease;
+border: none;
+cursor: pointer;
+margin: 2px;
+}
+
+.btn-sm {
+padding: 6px 12px;
+font-size: 13px;
+}
+
+.btn-success {
+background-color: #28a745;
+color: white;
+}
+
+.btn-success:hover {
+background-color: #218838;
+}
+
+.btn-primary {
+background-color: #007bff;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #0069d9;
+}
+
+.btn-warning {
+background-color: #ffc107;
+color: #212529;
+}
+
+.btn-warning:hover {
+background-color: #e0a800;
+}
+
+.btn-danger {
+background-color: #dc3545;
+color: white;
+}
+
+.btn-danger:hover {
+background-color: #c82333;
+}
+
+.btn-info {
+background-color: #17a2b8;
+color: white;
+}
+
+.btn-info:hover {
+background-color: #138496;
+}
+
+.details-table {
+width: 50%;
+margin: 20px auto;
+border-collapse: collapse;
+background-color: #fff;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.details-table td {
+padding: 10px 15px;
+border: 1px solid #e0cfc2;
+vertical-align: middle; 
+}
+
+.details-table td:first-child {
+font-weight: bold;
+width: 30%;
+background-color: #f9f3ee;
+}
+.details-container {
+width: 50%;
+margin: 20px auto;
+background-color: #fff;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+padding: 20px;
+border-radius: 6px;
+font-size: 16px;
+color: #333;
+}
+
+.details-row {
+display: flex;
+padding: 8px 0;
+border-bottom: 1px solid #e0cfc2;
+align-items: center;
+}
+
+.details-row:last-child {
+border-bottom: none;
+}
+
+.details-label {
+width: 30%;
+font-weight: bold;
+color: #b65f2f;
+text-align: right;
+padding-right: 15px;
+box-sizing: border-box;
+}
+
+.details-value {
+width: 70%;
+text-align: left;
+}

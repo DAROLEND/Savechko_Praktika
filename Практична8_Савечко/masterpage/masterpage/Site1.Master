@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="masterpage.Site1" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Candy Store</title>
+    <link href="my.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header">
+            <h1>Candy Store Online</h1>
+        </header>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="home.aspx">Головна</a></li>
+                <li><a href="#">Про магазин</a></li>
+                <li><a href="#">Асортимент</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <aside id="side">
+            <h2>Новини</h2>
+            <ul>
+                <li><a href="#">Акції на солодощі</a></li>
+                <li><a href="#">Новинки тижня</a></li>
+                <li><a href="#">Поради ласунам</a></li>
+            </ul>
+        </aside>
+
+        <div id="con">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+
+        <footer id="footer">
+            <p>© 2025 Candy Store. Усі права захищені.</p>
+        </footer>
+    </form>
+</body>
+</html>

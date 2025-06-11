@@ -1,0 +1,24 @@
+﻿@model CandyStore.Models.Sweet
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Деталі солодощів</h3>
+
+<div class="details-container">
+    <h4>@Model.Name</h4>
+    <hr />
+    <div class="details-row">
+        <span class="details-label">Виробник:</span>
+        <span class="details-value">@Model.Manufacturer</span>
+    </div>
+    <div class="details-row">
+        <span class="details-label">Ціна:</span>
+        <span class="details-value">@Model.Price грн</span>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Повернутися до списку", "Index", null, new { @class = "btn btn-info" })
+</p>

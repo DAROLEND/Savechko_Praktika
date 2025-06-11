@@ -1,0 +1,21 @@
+﻿@model CandyStore.Models.Sweet
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Видалення солодощів</h3>
+
+<table class="details-table">
+    <tr><td>Назва</td><td>@Model.Name</td></tr>
+    <tr><td>Виробник</td><td>@Model.Manufacturer</td></tr>
+    <tr><td>Ціна</td><td>@Model.Price грн</td></tr>
+</table>
+
+<p>Ви дійсно хочете видалити цей товар?</p>
+
+@using (Html.BeginForm("Delete", "Home", new { id = Model.Id }, FormMethod.Post))
+{
+    <input type="submit" value="Видалити" class="btn btn-danger" />
+    @Html.ActionLink("Скасувати", "Index", null, new { @class = "btn btn-primary" })
+}

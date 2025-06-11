@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|c:\\users\\pc_1\\source\\repos\\candystore\\candystore\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|c:\\users\\pc_1\\source\\repos\\candystore\\candystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\models\\sweetdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\models\\sweetdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\models\\sweetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\models\\sweetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|C:\\Users\\PC_1\\source\\repos\\CandyStore\\candystore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30848FEE-FE57-4661-9858-C4245FCCD5EF}|CandyStore\\CandyStore.csproj|solutionrelative:candystore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Content\\Site.css",
+              "RelativeDocumentMoniker": "CandyStore\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Content\\Site.css",
+              "RelativeToolTip": "CandyStore\\Content\\Site.css",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T14:51:27.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CandyStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CandyStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T14:37:46.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Buy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Views\\Home\\Buy.cshtml",
+              "RelativeDocumentMoniker": "CandyStore\\Views\\Home\\Buy.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Views\\Home\\Buy.cshtml",
+              "RelativeToolTip": "CandyStore\\Views\\Home\\Buy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T14:38:33.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CandyStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CandyStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:37:08.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SweetDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\SweetDbInitializer.cs",
+              "RelativeDocumentMoniker": "CandyStore\\Models\\SweetDbInitializer.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\SweetDbInitializer.cs",
+              "RelativeToolTip": "CandyStore\\Models\\SweetDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:36:49.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SweetContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\SweetContext.cs",
+              "RelativeDocumentMoniker": "CandyStore\\Models\\SweetContext.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\SweetContext.cs",
+              "RelativeToolTip": "CandyStore\\Models\\SweetContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:20:58.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "CandyStore\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\Sale.cs",
+              "RelativeToolTip": "CandyStore\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:18:44.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sweet.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\Sweet.cs",
+              "RelativeDocumentMoniker": "CandyStore\\Models\\Sweet.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Models\\Sweet.cs",
+              "RelativeToolTip": "CandyStore\\Models\\Sweet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:17:55.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Web.config",
+              "RelativeDocumentMoniker": "CandyStore\\Web.config",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\CandyStore\\CandyStore\\Web.config",
+              "RelativeToolTip": "CandyStore\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-11T13:22:24.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

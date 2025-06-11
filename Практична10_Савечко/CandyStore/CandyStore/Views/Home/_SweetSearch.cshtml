@@ -1,0 +1,20 @@
+﻿@model IEnumerable<CandyStore.Models.Sweet>
+
+@if (Model.Any())
+{
+    <div id="searchresults">
+        <h4>Знайдено: @Model.Count() товар(ів)</h4>
+        <ul>
+            @foreach (var sweet in Model)
+            {
+                <li>@sweet.Name — @sweet.Price грн</li>
+            }
+        </ul>
+    </div>
+}
+else
+{
+    <div id="searchresults">
+        <p>Нічого не знайдено.</p>
+    </div>
+}

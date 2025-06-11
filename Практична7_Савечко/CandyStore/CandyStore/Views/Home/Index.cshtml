@@ -1,0 +1,65 @@
+﻿@model CandyStore.Models.SweetFilterViewModel
+@using PagedList.Mvc;
+@using PagedList;
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Солодощі в наявності</h3>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+{
+    <div class="form-inline mb-3">
+        <div class="form-group mr-2">
+            <label>Виробник: </label>
+            @Html.DropDownList("manufacturer", Model.Manufacturers, new { @class = "form-control ml-2" })
+        </div>
+        <div class="form-group mx-2">
+            <label>Назва: </label>
+            @Html.TextBox("name", Model.NameSearch, new { @class = "form-control ml-2" })
+        </div>
+        <button type="submit" class="btn btn-primary ml-2">Фільтрувати</button>
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Додати новий товар", "Create", null, new { @class = "btn btn-success" })
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Виробник</th>
+            <th>Ціна</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Sweets)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Manufacturer</td>
+                <td>@item.Price грн</td>
+                <td>
+                    @Html.ActionLink("Деталі", "Details", new { id = item.Id }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Редагувати", "Edit", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Видалити", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                    @Html.ActionLink("Купити", "Buy", new { id = item.Id }, new { @class = "btn btn-primary btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @Html.PagedListPager(Model.Sweets, page => Url.Action("Index", new
+    {
+        page,
+        manufacturer = Model.SelectedManufacturer,
+        name = Model.NameSearch
+    }))
+</div>

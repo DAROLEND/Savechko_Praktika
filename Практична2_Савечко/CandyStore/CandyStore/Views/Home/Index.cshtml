@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Кондитерський магазин</title>
+</head>
+<body>
+    <div>
+        <h3>Солодощі в наявності</h3>
+        <table>
+            <tr>
+                <td><p>Назва</p></td>
+                <td><p>Виробник</p></td>
+                <td><p>Ціна</p></td>
+                <td></td>
+            </tr>
+            @foreach (var s in ViewBag.Sweets)
+            {
+                <tr>
+                    <td><p>@s.Name</p></td>
+                    <td><p>@s.Manufacturer</p></td>
+                    <td><p>@s.Price грн</p></td>
+                    <td><p><a href="/Home/Buy/@s.Id">Оформити покупку</a></p></td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
